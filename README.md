@@ -1,9 +1,9 @@
 # Spam-Destroyer-NLP
-Spam Email Detection using Natural Language Processing 
+Spam SMS/E-Mail Detection using Natural Language Processing 
 
 ## About the project / Summary :
 
-Used NLP (Natural Language Processing) techniques in ML (Machine Learning) to detect whether an e-mail is spam or not spam . Used NLP techniques such as tokeniztion , lemmatization , stop words removal , punctuation removal using tools such as NLTK and regex . Used models such as Multinomial Naive Bayes and Logistic regression to achieve overall F1 Score of 0.99 .  Also performed feature engineering and handcrafted features such as number of digits , email length , number of punctuations etc which further helped in predictions . Also generated wordclouds for the different prediction classes . 
+Used NLP (Natural Language Processing) techniques in ML (Machine Learning) to detect whether an SMS/e-mail is spam or not spam . Used NLP techniques such as tokeniztion , lemmatization , stop words removal , punctuation removal using tools such as NLTK and regex . Used models such as Multinomial Naive Bayes and Logistic regression to achieve overall F1 Score of 0.99 .  Also performed feature engineering and handcrafted features such as number of digits , email length , number of punctuations etc which further helped in predictions . Also generated wordclouds for the different prediction classes . 
 
 * Field : NLP (Natural Language Processing) 
 * Tools : NLTK , regex , scikit-learn , python 
@@ -21,4 +21,4 @@ Used NLP (Natural Language Processing) techniques in ML (Machine Learning) to de
 
 ## Dataset :
 
-https://www.kaggle.com/datasets/bagavathypriya/spam-ham-dataset (Originally taken from UCI machine learning repository ) 
+https://www.kaggle.com/datasets/bagavathypriya/spam-ham-dataset (Originally taken from UCI machine learning repository ) . Note that althought the dataset says SMS , it has a significant resemblance to the E-Mail spam received also , and hance can be used to train a moel to detect spam e-mails also :) 
